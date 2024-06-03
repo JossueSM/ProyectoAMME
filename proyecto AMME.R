@@ -159,7 +159,7 @@ for (i in hi){
 c8=cbind(d7$DUSSELDORF_temp_max,d7$DUSSELDORF_pressure,d7$DUSSELDORF_global_radiation,d7$DUSSELDORF_precipitation,d7$DUSSELDORF_sunshine)
 cor8 = cor(c8)
 corrplot(cor8)# Grafico de las correlaciones entre variables
-plot(reg1)#Si hay homocedasticidad y Normalidad
+plot(reg8)#Si hay homocedasticidad y Normalidad
 
 #Coeficientes de regresión para la regresión n8
 b0=res8$coefficients[1]
